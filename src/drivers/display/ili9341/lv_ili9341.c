@@ -13,7 +13,7 @@
 /*********************
  *      DEFINES
  *********************/
-
+#define CMD_MAC			0x36	/* Memory Control */
 #define CMD_FRMCTR1     0xB1    /* Frame Rate Control (In Normal Mode/Full Colors) */
 #define CMD_FRMCTR2     0xB2    /* Frame Rate Control (In Idle Mode/8 colors) */
 #define CMD_FRMCTR3     0xB3    /* Frame Rate control (In Partial Mode/Full Colors) */
